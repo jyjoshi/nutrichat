@@ -120,6 +120,12 @@ Related Work:
 - Latent retrieval - no labels needed for retrieved docs
 - General recipe for any seq2seq
 
+### What does the term letent mean in context of machine learning and artificial intelligence?
+
+Refers to the hidden variable or factors that are not directly observed but are inferred from the observable data. They capture the underlying structure and patterns in the data.
+Eg: Latent space in auto-encoders, latent variables in topic models(latent dirichlect allocation), latent factors in collaborative filtering.
+In terms of RAG, the latent variable z represents the retrieved documents or passages.
+
 Need 3 things
 
 - A (pretrained) generator model P(y|...) e.g. BART, GPT, T5
@@ -142,5 +148,7 @@ RAG models combine parametric and non-parametric memory and work well for knowle
 3. Memory Based (Intensive)
 4. Aggregate Information with time
 5. The term non-parametric is not meant to imply that such models completely lack parameters but that the number and nature of the parameters are flexible and not fixed in advance.
+
+Non-parametric models utilize latent patterns or representations observed in the data distribution.
 
 # Sequence to Sequence models
